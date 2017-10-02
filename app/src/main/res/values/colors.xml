@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3A539B</color>
+    <color name="colorPrimaryDark">#002b6c</color>
+    <color name="colorAccent">#fe5824</color>
+
+    <color name="flat_orange">#F89406</color>
+
+    <!--input style-->
+    <color name="darkBlueStroke">#d6dee1</color>
+    <color name="lightBlueBg">#eef7fa</color>
+    <color name="colorBasicLabel">#334045</color>
+
+    <!--checkbox style-->
+    <color name="extraCheckbox1ShopCbNormal">#cfcfcf</color>
+    <color name="extraCheckbox1ShopCbActivated">#3b6dff</color>
+
+    <!--extra search 3 -->
+    <color name="extraSearch3colorPrimaryDark">#3951ff</color>
+    <color name="extraSearch3colorAccent">#3b6dff</color>
+    <color name="extraSearch3Bg">#f1f5f8</color>
+    <color name="extraSearch3InputBg">#dcffffff</color>
+    <color name="extraSearch3font">#939393</color>
+    <color name="extraSearch3hintfont">#bababa</color>
+    <color name="extraSearch2colorPrimaryDark">#3951ff</color>
+    <color name="extraSearch2colorAccent">#3b6dff</color>
+    <color name="extraSearch2font">#939393</color>
+    <color name="extraSearch2hintfont">#bababa</color>
+
+    <!--login signup color-->
+    <color name="loginSignup1colorAccent">#fe5824</color>
+    <color name="loginSignup13colorNormal">#b6b6b6</color>
+    <color name="LoginSignup13colorAccent">#fe5824</color>
+    <color name="LoginSignup2colorAccent">#fe5824</color>
+
+    <!--style menu-->
+    <color name="menuNavigation4colorPrimary">#293339</color>
+    <color name="menuNavigation4colorPrimaryDark">#293339</color>
+    <color name="menuNavigation4colorAccent">#293339</color>
+    <color name="menuNavigation4menuBg">#293339</color>
+    <color name="menuNavigation4menuSelected">#202c32</color>
+
+    <color name="brownColor">#EDEADA</color>
+
+    <color name="lightGrey">#D3D3D3</color>
+
+    <color name="profile16background">#f1f5f8</color>
+    <color name="profile16fontGray">#999696</color>
+    <color name="profile16timeline">#d7d7d7</color>
+    <color name="profile16floatingBg">#43bd42</color>
+    <color name="profile16DotGreen">#96c06a</color>
+    <color name="activity1fontGray">#999696</color>
+
 </resources>

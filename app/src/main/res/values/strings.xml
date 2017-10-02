@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DialogWithList</string>
+    <string name="hint_lainnya">...</string>
+    <string name="ok_btn">OK</string>
 </resources>

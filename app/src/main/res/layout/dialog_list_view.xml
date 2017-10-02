@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_marginBottom="15dp"
+            android:id="@+id/searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/extra_search3_input_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageButton
+                android:id="@+id/imageSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_search_grey"
+                android:layout_alignParentLeft="true" />
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                style="@style/ExtraSearch3Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="64dp"
+                android:layout_toEndOf="@+id/imageSearch"
+                android:hint="Search here"
+                android:textColor="@color/extraSearch2font"
+                android:textColorHint="@color/extraSearch2hintfont"
+                android:textSize="21sp"
+                android:layout_marginRight="64dp"
+                android:layout_toRightOf="@+id/imageSearch" />
+
+            <ImageButton
+                android:id="@+id/buttonClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_close_gray"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:scrollbars="none"
+            android:id="@+id/lvDialogSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/layout_other_text"
+            android:gravity="center"
+            android:weightSum="5"
+            android:visibility="visible"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="@string/hint_lainnya"
+                android:id="@+id/other_text"
+                android:layout_weight="4"
+                style="@style/EdittextBlur"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/ok_btn_text"
+                android:layout_weight="1"
+                android:text="@string/ok_btn"
+                style="@style/ButtonColored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
